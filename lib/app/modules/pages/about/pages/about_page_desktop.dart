@@ -88,13 +88,6 @@ class _AboutPageDesktopState extends State<AboutPageDesktop> {
                     const CustomText(label: skills, fontSize: fontContent),
                     SizedBox(height: context.percentHeight(0.03)),
                     CustomText(
-                        label: 'Conhecimentos Específicos',
-                        fontSize: fontTitle,
-                        fontWeight: FontWeight.bold),
-                    SizedBox(height: context.percentHeight(0.01)),
-                    const CustomText(label: skills, fontSize: fontContent),
-                    SizedBox(height: context.percentHeight(0.03)),
-                    CustomText(
                         label: 'Evolução de Carreira',
                         fontSize: fontTitle,
                         fontWeight: FontWeight.bold),
