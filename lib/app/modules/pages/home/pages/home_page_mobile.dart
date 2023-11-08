@@ -8,12 +8,11 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class HomePageMobile extends StatelessWidget {
+  const HomePageMobile({Key? key}) : super(key: key);
 
-  const HomePageMobile({ Key? key }) : super(key: key);
-
-   @override
-   Widget build(BuildContext context) {
-       return Scaffold(
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       body: SafeArea(
         child: Stack(
           children: [
@@ -84,7 +83,7 @@ class HomePageMobile extends StatelessWidget {
 
 const String welcome = 'Olá, seja bem-vindo!';
 const String description =
-    'Me chamo Ygor Felipe, tenho 25 anos e atualmente estudo Análise e Desenvolvimento de Sistemas na Fatec Itapetininga.\nEste espaço foi criado com o propósito de apresentar alguns dos projetos que desenvolvi utilizando as linguagens Flutter & Dart, bem como VB.NET.\nInclusive, o portifólio foi desenvolvido em Fluter Web, demonstrando a versatilidade da linguagem. Espero que gostem dos projetos apresentados e fique à vontade para entrar em contato.';
+    'Me chamo Ygor Felipe, tenho 25 anos e atualmente estudo Análise e Desenvolvimento de Sistemas na Fatec Itapetininga.\nEste espaço foi criado com o propósito de apresentar alguns dos projetos que desenvolvi utilizando as linguagens Flutter & Dart, bem como VB.NET.\nInclusive, o portifólio foi desenvolvido em Flutter Web, demonstrando a versatilidade da linguagem. Espero que gostem dos projetos apresentados e fique à vontade para entrar em contato.';
 const String urlGit = 'https://github.com/ygorfelipe';
 const String urlLinkdin = 'https://www.linkedin.com/in/ygor-felipe-a74a98169/';
 const String urlEmail = 'ygor.silva2@fatec.sp.gov.br';
